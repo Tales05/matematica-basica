@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, #25d92ea9, #1CD93A);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    color: white;
+    font-weight: bold;
+
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    background-color: rgb(241, 231, 231);
+    border-radius: 10px;
+    box-shadow:  1px  1px 1px  rgba(0, 0, 0, 0.445);
+}
+
+.secbox {
+    width: 280px;
+    height: 120px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+input {
+    position: relative;
+    font: normal 14pt arial;
+    width: 50px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.233);
+}
+
+
+#res {
+    text-align: left;
+    
+}
+/*Subtrair*/
+#bot {
+    background-color: white;
+    width: 70px;
+    font-size: 13px;
+    border-radius: 50px;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.233);
+    
+}
+
+#bot:hover {
+    background-color: #f83232c0;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+#res {
+    color: #f83232c0;
+    font-weight: bold;
+}
+
+/* soma */
+#botsoma {
+    border-radius: 50px;
+    font-size: 12px;
+    width: 60px;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.233);
+    background-color: white;
+}
+
+#botsoma:hover {
+    background-color: #f01de2a8;
+    font-weight: bold;
+    color: white;
+    transition: 1s;
+}
+
+#rose {
+    color: #f01de2a8;
+    font-weight: bold;
+}
+
+
+/*multiplicação*/
+
+#botmult {
+    font-size: 13px;
+    width: 80px;
+    border-radius: 50px;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.233);
+    background-color: white;
+}
+#botmult:hover {
+    background-color:#4dacf0d0;
+    font-weight: bold;
+    color: white;
+    transition: 0.6s;
+}
+
+#violet {
+    color: #4dacf0;
+    font-weight: bold;
+}
+
+
+/*Divisão*/
+
+#botdivi {
+    font-size: 13px;
+    width: 70px;
+    border-radius: 50px;
+    border:1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.233);
+    background-color: white;
+}
+
+#botdivi:hover {
+    background-color: #F0A029;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+#carm {
+    color: #F0A029;
+    font-weight: bold;
+}
+
+
+footer {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
